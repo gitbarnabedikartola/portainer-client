@@ -2,7 +2,7 @@
 
 pkgname=biglinux-docker-portainer-client
 pkgdesc="Client for Portainer"
-depends=('biglinux-docker-config' 'portainer-bin')
+depends=('biglinux-docker-config')
 # makedepends=('')
 # conflicts=('')
 pkgver=$(date +%y.%m.%d)
