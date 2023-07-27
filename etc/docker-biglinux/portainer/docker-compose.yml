@@ -32,10 +32,10 @@ services:
         restart: unless-stopped
         networks:
             # The Docker network to which the container will be connected.
-            big-net:
+            - portainer-net
             
 networks:
     # Defines the network to be created.
-    big-net:
+    portainer-net:
         # The name to be assigned to the network.
-        name: big-net
+        name: portainer-net
